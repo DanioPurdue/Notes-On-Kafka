@@ -1,4 +1,4 @@
-![image-20190623135031416](/Users/daniowang/OneDrive/GitHub/Notes-On-Kafka/figure/consumer_plot.png)
+![image-20190623135031416](figure/consumer_plot.png)
 
 **Kafka Broker Dsicovery**
 
@@ -16,7 +16,7 @@ Every Kafka broker is also called a "bootstrap server", that means that you only
 
 Very important: you only need to connect to one broker (any broker) and just provide the topic name you want to read from. Kafka will route your calls to the appropriate brokers and partitions for you!
 
-![image-20190623142934449](/Users/daniowang/OneDrive/GitHub/Notes-On-Kafka/figure/kafka_round_up.png)
+![image-20190623142934449](/figure/kafka_round_up.png)
 
 How to start the kafka server
 
